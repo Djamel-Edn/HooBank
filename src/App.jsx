@@ -14,7 +14,7 @@ import Stats from "./components/Stats"
 
 function App() {
   return (
-    <div className="bg-[#00040F] scroll-smooth flex flex-col ">
+    <div className="bg-[#00040F] scroll-smooth flex flex-col overflow-clip ">
       <Navbar/>
       <Hero/>
       <Stats/>

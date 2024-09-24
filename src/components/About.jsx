@@ -4,10 +4,10 @@ import { people01, people02, people03, quotes } from '../assets'
 const
     About = () => {
         return (
-            <section id='About Us' className='flex flex-col gap-10 px-4 md:px-24 xl:px-44 text-white py-16 relative'>
-                <div className='bg-[linear-gradient(rgba(26,_41,_128,_1),rgba(38,_208,_206,_1))] blur-[400px] w-[40%] h-[100%] top-0 -right-96 absolute rounded-full'/>
-                <div className='flex md:justify-between'>
-                    <div className='flex-1 text-xl md:text-4xl font-semibold gap-10 px-4'>
+            <section id='About Us' className='flex flex-col gap-10 px-4 md:px-24 xl:px-[140px] text-white py-10 relative '>
+                <div className='bg-[linear-gradient(rgba(26,_41,_128,_1),rgba(38,_208,_206,_1))] blur-[800px] w-[30%] h-[100%] bottom-0 -right-96 absolute rounded-full'/>
+                <div className='flex md:justify-between items-center'>
+                    <div className='flex-1 text-xl md:text-4xl font-semibold gap-10 px-6'>
                         <h2 className='mb-6'>What people are</h2>
                         <h2>saying about us</h2>
                     </div>

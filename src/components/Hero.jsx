@@ -3,7 +3,7 @@ import { arrowUp, discount, robot } from '../assets';
 
 const Hero = () => {
     return (
-        <section id="Home" className="flex md:flex-row flex-col px-4 md:px-20 xl:px-[200px]  py-1 md:py-0 ">
+        <section id="Home" className="flex md:flex-row flex-col px-4 md:px-20 xl:px-[160px]  py-1 md:py-0 ">
             <div className="flex-1  py-2 md:py-14 relative justify-center items-start flex flex-col gap-6 ">
                 <div className='absolute -left-40 top-25 bg-white rounded-2xl w-[40%] h-[60%] blur-[280px]' />
                 <a
@@ -51,7 +51,7 @@ const Hero = () => {
 
 
             <div className="flex-1 relative flex justify-center  items-center    ">
-                <img src={robot} alt="robot" className="w-[100%] h-[100%] z-[5]" />
+                <img src={robot} alt="robot" className=" max-h-[520px] object-contain z-[5]" />
                 <div className="pink__gradient w-[40%] h-[60%] top-0 absolute" />
                 <div className="rounded-lg white__gradient bottom-40 right-20 w-[40%] h-[60%] absolute" />
                 <div className="blue__gradient w-[40%] h-[60%] top-0 absolute" />

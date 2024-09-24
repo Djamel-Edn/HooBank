@@ -4,7 +4,7 @@ import { send, shield, star } from '../assets'
 
 const Features = () => {
     return (
-        <section id='Features' className='text-white flex flex-col items-center md:flex-row mx-6 md:mx-20 lg:mx-36 xl:mx-48 py-16 md:py-32 gap-8 '>
+        <section id='Features' className='text-white flex flex-col items-center md:flex-row mx-6 md:mx-20 lg:mx-36 xl:mx-[160px] py-16 md:py-32 gap-8 '>
             <div className='flex flex-1 flex-col items-center md:items-start justify-between py-3 gap-4 '>
                 <h2 className='leading-[30px] md:leading-[50px] text-xl md:text-4xl font-semibold'>You do the business,<br /> we'll handle the money.</h2>
                 <p cl className='text-white/70 text-md md:text-lg'>With the right credit card, you can improve your financial life by building credit,

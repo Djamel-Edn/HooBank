@@ -3,8 +3,8 @@ import { apple, bill, google } from '../assets'
 
 const Billing = () => {
   return (
-    <section id='Billing' className='flex flex-col items-center md:flex-row gap-24 mx-2 md:mx-16 lg:mx-28  xl:mx-44 px-3 relative'>
-        <div className='bg-white/60 blur-[300px] w-[40%] h-[100%] top-0 -left-96 absolute rounded-full'/>
+    <section id='Billing' className='flex flex-col items-center md:flex-row gap-24 mx-2 md:mx-16 lg:mx-28  xl:mx-[160px] px-3 relative'>
+        <div className='bg-white/60 blur-[300px] w-[40%] h-[50%] top-0 -left-96 absolute rounded-full'/>
         <div className=''>
             <img src={bill} alt="billing" />
         </div>

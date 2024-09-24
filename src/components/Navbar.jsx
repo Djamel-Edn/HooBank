@@ -7,11 +7,11 @@ const Navbar = () => {
         <div>
             <img src={logo} alt="Logo"  className='w-1/2 h-1/2 md:w-36 md:h-20 md:mx-6'/>
         </div>
-        <ul className=' flex-row items-center hidden md:flex gap-12 px-16 mr-4 text-white/70  font-semibold'>
+        <ul className=' flex-row items-center hidden md:flex gap-12 px-16 mr-10 text-white/70  font-semibold'>
             <li><a href="#Home" className='hover:text-white'>Home</a></li>
             <li><a href="#About Us" className='hover:text-white'>About Us</a></li>
-            <li><a href="Features" className='hover:text-white'>Features</a></li>
-            <li><a href="Solution" className='hover:text-white'>Solution</a></li>
+            <li><a href="#Features" className='hover:text-white'>Features</a></li>
+            <li><a href="#Business" className='hover:text-white'>Solution</a></li>
         </ul>
         {isOpen ?( 
             <div className='relative'>

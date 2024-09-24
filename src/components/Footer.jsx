@@ -3,7 +3,7 @@ import { facebook, instagram, linkedin, logo, twitter } from '../assets'
 
 const Footer = () => {
     return (
-        <footer id='footer' className='flex flex-col gap-4 py-4 mx-2 md:mx-8 xl:mx-44 px-2 text-white'>
+        <footer id='footer' className='flex flex-col gap-4 py-4 mx-2 md:mx-8 xl:mx-[160px] px-2 text-white'>
 
             <div className='flex flex-col md:flex-row'>
 
