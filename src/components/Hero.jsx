@@ -3,7 +3,7 @@ import { arrowUp, discount, robot } from '../assets';
 
 const Hero = () => {
     return (
-        <section id="Home" className="flex md:flex-row flex-col px-4 md:px-20 xl:px-[160px]  py-1 md:py-0 ">
+        <section id="Home" className="flex md:flex-row flex-col px-4 md:px-14 xl:px-[160px]  py-1 md:py-0 ">
             <div className="flex-1  py-2 md:py-14 relative justify-center items-start flex flex-col gap-6 ">
                 <div className='absolute -left-40 top-25 bg-white rounded-2xl w-[40%] h-[60%] blur-[280px]' />
                 <a
@@ -30,12 +30,12 @@ const Hero = () => {
 
                 <div className="flex mx-auto md:mx-0 items-center gap-1 md:gap-2 px-1 md:px-2 py-1 rounded-lg bg-[linear-gradient(rgba(39,39,39,1),rgba(17,16,29,1))] w-fit">
                     <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
-                    <p className="text-gray-600 text-sm md:text-lg uppercase">
+                    <p className="text-gray-600 text-sm lg:text-lg uppercase">
                         <span className="text-white">20%</span> Discount for <span className="text-white">1 month</span> Account
                     </p>
                 </div>
 
-                <h1 className="flex md:inline justify-center gap-1 items-center text-lg md:text-3xl lg:text-6xl text-white leading-2 md:leading-snug lg:leading-[75px] font-semibold">
+                <h1 className="flex md:inline justify-center  items-center text-lg md:text-3xl lg:text-4xl xl:text-6xl text-white leading-2 lg:leadint-[70px]  xl:leading-[75px] font-semibold">
                     The Next <br className='hidden md:inline' />
                     <span className="bg-clip-text text-transparent bg-[radial-gradient(rgba(222,249,250,1),rgba(190,243,245,1),rgba(157,237,240,1),rgba(125,231,235,1),rgba(92,225,230,1),rgba(51,187,207,1))]">
                         Generation
