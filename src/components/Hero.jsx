@@ -10,7 +10,7 @@ const Hero = () => {
                     href='#'
                     className='hidden md:flex text-md 
                         md:text-lg lg:text-xl cursor-pointer font-semibold rounded-full w-12 h-12 md:w-24 md:h-24 lg:w-32 lg:h-32
-                        absolute md:top-28 lg:top-40 md:-right-3 lg:-right-12 xl:-right-2 flex-col justify-center items-center
+                        absolute md:top-28 lg:top-32 md:-right-3 lg:-right-12 xl:-right-2 flex-col justify-center items-center
                         bg-[radial-gradient(rgba(222,249,250,1),rgba(190,243,245,1),rgba(157,237,240,1),rgba(125,231,235,1),rgba(92,225,230,1),rgba(51,187,207,1))]
                         p-[2px]'
                 >
